@@ -28,7 +28,7 @@
 ##############################################################################
 from openerp.osv import osv,fields
 from openerp.tools.translate import _
-import decimal_precision as dp
+from openerp.addons.decimal_precision import decimal_precision as dp
 
 EXCLUDE_PRODUCT_NAMES = ("SUBTOTAL", "SUBTOTAL-ALL", "HEADER")
 
