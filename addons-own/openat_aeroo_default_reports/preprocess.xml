@@ -10,15 +10,15 @@
         <value eval="ref('action_report_sale_order_openat')"/>
     </function>
     <function model="ir.actions.report.xml" name="_remake_print_button">
-        <value eval="ref('stock.report_picking_list_out')"/>
+        <value eval="ref('stock.action_report_picking')"/>
         <value eval="ref('action_report_delivery_order_openat')"/>
     </function>
     <function model="ir.actions.report.xml" name="_remake_print_button">
-        <value eval="ref('purchase.report_purchase_order')"/>
+        <value eval="ref('purchase.action_report_purchase_order')"/>
         <value eval="ref('action_report_purchase_order_openat')"/>
     </function>
     <function model="ir.actions.report.xml" name="_remake_print_button">
-        <value eval="ref('account.account_overdue')"/>
+        <value eval="ref('account.action_report_print_overdue')"/>
         <value eval="ref('action_report_overdue_payments_openat')"/>
     </function>
   </data>
